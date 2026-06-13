@@ -445,6 +445,24 @@ div.logo {
   transform: scale(1.06);
 }
 
+:root[data-theme="light"] .tech-carousel {
+  -webkit-mask-image: none;
+  mask-image: none;
+}
+
+:root[data-theme="light"] .tech-logo-item {
+  background: #f1e9da;
+  box-shadow: 0 2px 8px rgba(106, 86, 52, 0.14);
+}
+
+:root[data-theme="light"] .tech-logo-item:hover {
+  box-shadow: 0 6px 14px rgba(106, 86, 52, 0.18);
+}
+
+:root[data-theme="light"] .tech-logo {
+  filter: none;
+}
+
 @keyframes tech-carousel-scroll {
   from {
     transform: translateX(0);
@@ -907,6 +925,51 @@ div.logo {
   border-color: #6f2095;
 }
 
+:root[data-theme="light"] .project-tags .tag {
+  color: #2f2a23;
+  border-width: 1px;
+}
+
+:root[data-theme="light"] .project-tags .tag.fullstack {
+  background-color: #dcd3f7;
+  border-color: #bcaee8;
+}
+
+:root[data-theme="light"] .project-tags .tag.backend {
+  background-color: #d2e4fb;
+  border-color: #a9c8ef;
+}
+
+:root[data-theme="light"] .project-tags .tag.security {
+  background-color: #f8e1b8;
+  border-color: #e5c27d;
+}
+
+:root[data-theme="light"] .project-tags .tag.ai {
+  background-color: #cbf4df;
+  border-color: #97e2bd;
+}
+
+:root[data-theme="light"] .project-tags .tag.architecture {
+  background-color: #d3ecec;
+  border-color: #aad7d7;
+}
+
+:root[data-theme="light"] .project-tags .tag.microservices {
+  background-color: #ebdcc6;
+  border-color: #d2bc9a;
+}
+
+:root[data-theme="light"] .project-tags .tag.api {
+  background-color: #d7defb;
+  border-color: #b3c0f2;
+}
+
+:root[data-theme="light"] .project-tags .tag.problem-solving {
+  background-color: #e7d6f2;
+  border-color: #ccb0de;
+}
+
 #skills .skills-matrix {
   margin-top: 0.95rem;
   display: flex;
@@ -1132,7 +1195,7 @@ div.logo {
   }
 
   #skills .skill-pill::after {
-    content: "•";
+    content: "|";
     margin-left: 0.35rem;
     opacity: 0.45;
   }

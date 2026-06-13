@@ -408,9 +408,7 @@ function App() {
       <footer>
         <section>
           <p>&copy; {new Date().getFullYear()} Nirav Parekh</p>
-          <p>
-            Made with <a href="https://vite.dev/" className="soft">React + Vite</a>
-          </p>
+          <p>Developed and copyrighted by Nirav Parekh</p>
         </section>
       </footer>
 
