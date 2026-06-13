@@ -1,0 +1,86 @@
+[
+  {
+    "name": "FinTrack",
+    "year": "2026",
+    "href": "https://github.com/niruparekh09/FinTrack",
+    "tags": ["fullstack", "backend", "security", "ai"],
+    "description": "Full-stack personal finance tracker using Spring Boot APIs and a React UI for daily money management.",
+    "highlights": [
+      "Built backend APIs for transaction flows and account-level data handling.",
+      "Implemented JWT-based authentication with user-scoped financial data access.",
+      "Added analytics-friendly dashboard views for spending and income trends."
+    ]
+  },
+  {
+    "name": "NRV-Blog",
+    "year": "2024",
+    "href": "https://github.com/niruparekh09/NRV-Blog",
+    "tags": ["fullstack", "backend", "security"],
+    "description": "Blog platform with React frontend, Spring Boot backend, and Spring Security-based access control.",
+    "highlights": [
+      "Separated frontend and API layers for cleaner deployment and ownership.",
+      "Implemented secured authoring and content endpoints.",
+      "Kept the architecture straightforward for easy feature extension."
+    ]
+  },
+  {
+    "name": "Spring-Microservices",
+    "year": "2024",
+    "href": "https://github.com/niruparekh09/Spring-Microservices",
+    "tags": ["backend", "microservices", "architecture"],
+    "description": "Hands-on microservices sandbox covering Spring Cloud patterns, service decomposition, and cloud-native workflows.",
+    "highlights": [
+      "Explored API gateway and centralized configuration flows.",
+      "Worked with service-to-service communication and modular boundaries.",
+      "Used container-first thinking for local and cloud-friendly execution."
+    ]
+  },
+  {
+    "name": "Spring-Security",
+    "year": "2026",
+    "href": "https://github.com/niruparekh09/Spring-Security",
+    "tags": ["backend", "security", "api"],
+    "description": "Spring Security playground for implementing practical auth and authorization flows.",
+    "highlights": [
+      "Focused on role-based endpoint protection patterns.",
+      "Explored secure request handling in Java backend services.",
+      "Captured reusable security setup patterns for future projects."
+    ]
+  },
+  {
+    "name": "Hotel-Microservice",
+    "year": "2024",
+    "href": "https://github.com/niruparekh09/Hotel-Microservice",
+    "tags": ["backend", "microservices", "api"],
+    "description": "Java microservice project centered on service boundaries and clean API design.",
+    "highlights": [
+      "Worked on modular backend service structure.",
+      "Applied microservice communication and data-flow concepts.",
+      "Prioritized readable service contracts and maintainable code."
+    ]
+  },
+  {
+    "name": "Spring-GraphQL",
+    "year": "2024",
+    "href": "https://github.com/niruparekh09/Spring-GraphQL",
+    "tags": ["backend", "api"],
+    "description": "Demo project integrating Spring Boot with GraphQL for flexible query-driven APIs.",
+    "highlights": [
+      "Set up GraphQL schema and resolver flow in Spring.",
+      "Compared query-based APIs with typical REST patterns.",
+      "Focused on clean mapping from service layer to GraphQL response."
+    ]
+  },
+  {
+    "name": "LeetCodeSol",
+    "year": "2026",
+    "href": "https://github.com/niruparekh09/LeetCodeSol",
+    "tags": ["problem-solving", "backend"],
+    "description": "Cross-language problem-solving repository for algorithms and data structures.",
+    "highlights": [
+      "Solutions maintained across C++, Java, Python, and TypeScript.",
+      "Used as a consistent practice base for DSA and coding discipline.",
+      "Helps sharpen thinking for edge cases and optimization trade-offs."
+    ]
+  }
+]

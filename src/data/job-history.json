@@ -1,0 +1,23 @@
+[
+  {
+    "company": "Tata Technologies",
+    "location": "Pune, Maharashtra",
+    "positions": [
+      {
+        "title": "Software Development Engineer",
+        "yearStart": "May 2024",
+        "yearEnd": "Present",
+        "highlights": [
+          "Designed and developed RESTful APIs for the full vehicle order lifecycle, reducing order processing time by approximately 40%.",
+          "Built dynamic filtering and search for complex multi-condition fleet queries, reducing admin query resolution time by over 30%.",
+          "Developed React order-management dashboards with role-aware rendering and consistent loading, error, and empty-state handling.",
+          "Implemented OAuth2 + ADFS enterprise SSO across 6+ microservices with fine-grained RBAC and JWT-based session handling.",
+          "Migrated a legacy SOAP recall integration to REST with mutual TLS and feature-flag rollback, reducing latency by approximately 35%.",
+          "Built a WireMock-based mock server for 4 external dependencies, reducing CI failures by approximately 80%.",
+          "Hardened platform security with Keycloak JWT auth, stricter CORS rules, and locked actuator endpoints, closing critical security gaps.",
+          "Delivered an end-to-end Excel import/export flow with row-level validation and atomic rollback, reducing onboarding time by approximately 60%."
+        ]
+      }
+    ]
+  }
+]

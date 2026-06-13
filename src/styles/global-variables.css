@@ -1,0 +1,47 @@
+:root {
+  color-scheme: dark;
+
+  --color-primary-text: #d4d4d4;
+  --color-primary-text-faded-1: #787878;
+  --color-primary-text-faded-2: #393939;
+
+  --color-primary-background: #060606;
+  --color-primary-background-faded-1: #0d0d0d;
+  --color-primary-background-faded-2: #1b1b1b;
+  --color-primary-background-faded-3: #292929;
+  --color-primary-background-faded-4: #323232;
+
+  --color-accent-1: #00e21a;
+  --color-accent-1-minimal: #00cc1825;
+
+  --color-page-background: #0A0A0A;
+  --color-row-even: rgba(255, 255, 255, 0.02);
+  --color-pill-border: rgba(255, 255, 255, 0.16);
+  --color-pill-background: rgba(255, 255, 255, 0.03);
+  --color-carousel-fade: rgba(6, 6, 6, 0.95);
+  --color-logo-shadow: rgba(0, 0, 0, 0.55);
+}
+
+:root[data-theme="light"] {
+  color-scheme: light;
+
+  --color-primary-text: #2f2a23;
+  --color-primary-text-faded-1: #6f6658;
+  --color-primary-text-faded-2: #968c7d;
+
+  --color-primary-background: #f5efe2;
+  --color-primary-background-faded-1: #f0e8d8;
+  --color-primary-background-faded-2: #e7decd;
+  --color-primary-background-faded-3: #ddd1bd;
+  --color-primary-background-faded-4: #ccbea8;
+
+  --color-accent-1: #0b7f3e;
+  --color-accent-1-minimal: #0b7f3e24;
+
+  --color-page-background: #f7f2e7;
+  --color-row-even: rgba(88, 68, 34, 0.045);
+  --color-pill-border: rgba(91, 74, 41, 0.28);
+  --color-pill-background: rgba(137, 112, 65, 0.1);
+  --color-carousel-fade: rgba(247, 242, 231, 0.95);
+  --color-logo-shadow: rgba(87, 70, 38, 0.18);
+}

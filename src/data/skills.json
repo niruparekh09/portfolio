@@ -1,0 +1,34 @@
+[
+  {
+    "category": "Languages",
+    "stack": "Java, JavaScript, TypeScript, SQL"
+  },
+  {
+    "category": "Backend & Frameworks",
+    "stack": "Spring Boot, Spring Security, Spring AI, Hibernate, JPA"
+  },
+  {
+    "category": "Frontend & Frameworks",
+    "stack": "React, Next.js, Tailwind CSS, Redux, Axios, React Router"
+  },
+  {
+    "category": "Testing",
+    "stack": "JUnit, Mockito, WireMock, Test-Driven Development (TDD)"
+  },
+  {
+    "category": "Security",
+    "stack": "OAuth2, OpenID Connect (OIDC), ADFS, Keycloak, JWT, mTLS, RBAC"
+  },
+  {
+    "category": "Databases",
+    "stack": "MySQL, PostgreSQL, MongoDB"
+  },
+  {
+    "category": "DevOps & Tools",
+    "stack": "Git, Maven, Docker, Kafka, CI/CD, GitHub Actions, Ollama, OpenAI Codex, Claude Code"
+  },
+  {
+    "category": "Architecture & Design",
+    "stack": "Microservices, REST API Design, AI/LLM Integration, HLD, LLD, Agile/Scrum"
+  }
+]
