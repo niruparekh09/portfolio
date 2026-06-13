@@ -114,6 +114,94 @@ const profileLinks = [
   }
 ];
 
+function renderProfileIcon(linkId, iconPath) {
+  if (linkId === "email") {
+    return (
+      <span className="link-tile__icon link-tile__icon--email" aria-hidden="true">
+        <svg viewBox="0 0 24 24" role="presentation">
+          <rect
+            x="3.2"
+            y="5.3"
+            width="17.6"
+            height="13.4"
+            rx="2"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="1.7"
+          />
+          <path
+            d="M4.5 7.2 12 13l7.5-5.8"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="1.7"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+      </span>
+    );
+  }
+
+  if (linkId === "resume") {
+    return (
+      <span className="link-tile__icon link-tile__icon--resume" aria-hidden="true">
+        <svg viewBox="0 0 24 24" role="presentation">
+          <path
+            d="M7 3.5h7.5L19 8v12a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1v-15a1 1 0 0 1 1-1Z"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="1.7"
+            strokeLinejoin="round"
+          />
+          <path
+            d="M14.5 3.5V8H19"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="1.7"
+            strokeLinejoin="round"
+          />
+          <path
+            d="M9 12.2h6M9 15.4h6M9 18.2h4.5"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="1.7"
+            strokeLinecap="round"
+          />
+        </svg>
+      </span>
+    );
+  }
+
+  if (linkId === "leetcode") {
+    return (
+      <span className="link-tile__icon link-tile__icon--leetcode" aria-hidden="true">
+        <svg viewBox="0 0 24 24" role="presentation">
+          <path
+            d="M14.7 4.5 20 9.8l-1.9 1.9-5.3-5.3-5.2 5.2a2.9 2.9 0 0 0 4.1 4.1l3.6-3.6 1.9 1.9-3.6 3.6a5.6 5.6 0 1 1-7.9-7.9l6.2-6.2z"
+            fill="var(--color-leetcode-mark)"
+          />
+          <path
+            d="M9.5 12h9"
+            stroke="currentColor"
+            strokeWidth="1.8"
+            strokeLinecap="round"
+          />
+        </svg>
+      </span>
+    );
+  }
+
+  return (
+    <img
+      src={iconPath}
+      alt=""
+      aria-hidden="true"
+      className={`link-tile__icon link-tile__icon--${linkId}`}
+      loading="lazy"
+    />
+  );
+}
+
 const THEME_STORAGE_KEY = "nrv-portfolio-theme";
 const DARK_THEME = "dark";
 const LIGHT_THEME = "light";
@@ -398,7 +486,7 @@ function App() {
                 target={link.openInNewTab ? "_blank" : undefined}
                 rel={link.openInNewTab ? "noreferrer" : undefined}
               >
-                <img src={link.icon} alt="" aria-hidden="true" className="link-tile__icon" loading="lazy" />
+                {renderProfileIcon(link.id, link.icon)}
                 <span>{link.label}</span>
               </a>
             ))}

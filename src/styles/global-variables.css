@@ -20,6 +20,7 @@
   --color-pill-background: rgba(255, 255, 255, 0.03);
   --color-carousel-fade: rgba(6, 6, 6, 0.95);
   --color-logo-shadow: rgba(0, 0, 0, 0.55);
+  --color-leetcode-mark: #ffa116;
 }
 
 :root[data-theme="light"] {
@@ -44,4 +45,5 @@
   --color-pill-background: rgba(137, 112, 65, 0.1);
   --color-carousel-fade: rgba(247, 242, 231, 0.95);
   --color-logo-shadow: rgba(87, 70, 38, 0.18);
+  --color-leetcode-mark: #e58f12;
 }
