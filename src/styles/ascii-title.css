@@ -26,6 +26,6 @@
   white-space: pre;
   font-size: clamp(6.2px, 0.54vw, 9.1px);
   margin: 0.25rem 0 0.45rem;
-  /* Flat, no gradient — colour comes from global-variables text-faded-2 */
+  /* Flat, no gradient - colour comes from global-variables text-faded-2 */
   color: var(--color-primary-text-faded-2);
 }

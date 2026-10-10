@@ -1,13 +1,13 @@
 /* ─────────────────────────────────────────────────────────────────────────────
-   NIRAV PAREKH — index.css
+   NIRAV PAREKH - index.css
    System: "Technical Press"
 
    Design principles:
    · No blur / glassmorphism. Every surface is opaque and intentional.
    · Borders are near-neutral. Green appears only on focus, hover, and marks.
-   · Type does the heavy lifting — size, weight, and tracking over decoration.
+   · Type does the heavy lifting - size, weight, and tracking over decoration.
    · Left-gutter section annotations on desktop (rotated label in margin).
-   · Mobile is its own layout — not a collapsed desktop.
+   · Mobile is its own layout - not a collapsed desktop.
    · One unexpected element: the hero dateline (location, availability, date).
 ───────────────────────────────────────────────────────────────────────────── */
 
@@ -56,7 +56,7 @@ html {
 }
 
 /* ─────────────────────────────────────────────────────────────────────────────
-   CHROME — top bar (opaque, no blur)
+   CHROME - top bar (opaque, no blur)
 ───────────────────────────────────────────────────────────────────────────── */
 .site-topbar {
   position: fixed;
@@ -147,7 +147,7 @@ html {
   background: var(--color-accent-1);
 }
 
-/* Theme toggle — plain button, no glass */
+/* Theme toggle - plain button, no glass */
 .theme-toggle {
   width: 2.2rem;
   height: 2.2rem;
@@ -183,7 +183,7 @@ html {
 /* ─────────────────────────────────────────────────────────────────────────────
    SECTION PANELS & LABELS
    The unexpected structural choice: on desktop ≥1100px, section labels
-   rotate into the left margin — like a broadsheet's running head.
+   rotate into the left margin - like a broadsheet's running head.
 ───────────────────────────────────────────────────────────────────────────── */
 .section-panel {
   min-width: 0;
@@ -209,7 +209,7 @@ html {
   border-bottom: 1px solid var(--color-rule-strong);
 }
 
-/* The counter sits as a superscript-style prefix — no pill, no border */
+/* The counter sits as a superscript-style prefix - no pill, no border */
 .section-panel > h2::before {
   content: counter(portfolio-section, decimal-leading-zero);
   flex: 0 0 auto;
@@ -354,7 +354,7 @@ html {
   font-size: clamp(6.2px, 0.54vw, 9.1px);
   margin: 0.25rem 0 0.45rem;
   color: var(--color-primary-text-faded-2);
-  /* A very subtle left-to-right brightness — nothing animated */
+  /* A very subtle left-to-right brightness - nothing animated */
   -webkit-background-clip: unset;
   background-clip: unset;
 }
@@ -382,7 +382,7 @@ html {
 }
 
 /* ── Backend signals row ─────────────────────────────────────────────────── */
-/* Strip-style keyword row — ruled top and bottom, no border coloring */
+/* Strip-style keyword row - ruled top and bottom, no border coloring */
 .backend-signals {
   display: flex;
   flex-wrap: nowrap;
@@ -611,7 +611,7 @@ html {
 }
 
 /* ─────────────────────────────────────────────────────────────────────────────
-   EXPERIENCE — timeline with ruled entries
+   EXPERIENCE - timeline with ruled entries
 ───────────────────────────────────────────────────────────────────────────── */
 .job-history-section .job-timeline {
   margin-top: 1.8rem;
@@ -630,7 +630,7 @@ html {
   border-bottom: 1px solid var(--color-border);
 }
 
-/* Green mark in the left margin — a small, precise square */
+/* Green mark in the left margin - a small, precise square */
 .job-employer::before {
   content: "";
   position: absolute;
@@ -735,7 +735,7 @@ html {
 }
 
 /* ─────────────────────────────────────────────────────────────────────────────
-   PROJECTS — indexed list (not a card grid)
+   PROJECTS - indexed list (not a card grid)
 ───────────────────────────────────────────────────────────────────────────── */
 .projects-section .projects-timeline {
   margin-top: 1.5rem;
@@ -759,7 +759,7 @@ html {
   border-bottom: 1px solid var(--color-border);
 }
 
-/* No hover glow — just a precise left marker */
+/* No hover glow - just a precise left marker */
 .project-item::before {
   content: "";
   position: absolute;
@@ -806,7 +806,7 @@ html {
   transition: color 140ms ease;
 }
 
-/* Arrow that nudges on hover — subtle, not animated */
+/* Arrow that nudges on hover - subtle, not animated */
 .project-item__title a::after {
   content: " ↗";
   font-size: 0.7em;
@@ -843,7 +843,7 @@ html {
   margin-left: 2.6rem;
 }
 
-/* Tags — plain, no coloured backgrounds */
+/* Tags - plain, no coloured backgrounds */
 .project-tags {
   display: flex;
   flex-wrap: wrap;
@@ -889,7 +889,7 @@ html {
 }
 
 /* ─────────────────────────────────────────────────────────────────────────────
-   SKILLS — definition-list style (no bordered table)
+   SKILLS - definition-list style (no bordered table)
    Category as a hanging annotation; items as plain comma-separated text.
 ───────────────────────────────────────────────────────────────────────────── */
 #skills .skills-matrix {
@@ -950,7 +950,7 @@ html {
   color: var(--color-primary-text);
 }
 
-/* Slash separators between pills — pure CSS, no JS */
+/* Slash separators between pills - pure CSS, no JS */
 #skills .skill-row__items .skill-pill + .skill-pill::before {
   content: "/ ";
   color: var(--color-primary-text-faded-2);
@@ -960,7 +960,7 @@ html {
 }
 
 /* ─────────────────────────────────────────────────────────────────────────────
-   LINKS — indexed list, not a card grid
+   LINKS - indexed list, not a card grid
 ───────────────────────────────────────────────────────────────────────────── */
 #links .links-list {
   margin-top: 1.4rem;
@@ -1023,7 +1023,7 @@ html {
 }
 
 /* ─────────────────────────────────────────────────────────────────────────────
-   CONTACT BAR — replaces floating action buttons
+   CONTACT BAR - replaces floating action buttons
    A compact, inline strip in the footer area.
 ───────────────────────────────────────────────────────────────────────────── */
 .contact-bar {
@@ -1145,7 +1145,7 @@ html {
   }
 }
 
-/* Topbar nav hidden on mobile — bottom nav handles wayfinding */
+/* Topbar nav hidden on mobile - bottom nav handles wayfinding */
 @media (max-width: 750px) {
   .topbar-nav {
     display: none;
@@ -1156,7 +1156,7 @@ html {
    MOBILE BOTTOM NAV
    A fixed 5-anchor strip at the bottom of the screen.
    Opaque background, no blur. Active state uses the green accent underline.
-   Tap targets are 52px tall — well above the 44px minimum.
+   Tap targets are 52px tall - well above the 44px minimum.
 ───────────────────────────────────────────────────────────────────────────── */
 .mobile-bottom-nav {
   display: none; /* shown only in mobile media query below */
@@ -1164,12 +1164,12 @@ html {
 
 /* ─────────────────────────────────────────────────────────────────────────────
    RESPONSIVE: mobile (≤750px)
-   Intentionally different — not a shrunk desktop.
+   Intentionally different - not a shrunk desktop.
 
    Design decisions:
    · Bottom nav replaces topbar nav for wayfinding
-   · Hero nameplate is a pure typographic moment — large, tight, confident
-   · Section spacing uses 4rem gaps — more room to breathe
+   · Hero nameplate is a pure typographic moment - large, tight, confident
+   · Section spacing uses 4rem gaps - more room to breathe
    · All content is full-width; no left-indent offsets on project items
    · Tap targets ≥ 44px throughout
    · Contact links are full-width rows, not a cramped bar
@@ -1216,7 +1216,7 @@ html {
     color: var(--color-accent-1);
   }
 
-  /* Green underline on active — mirrors desktop topbar active style */
+  /* Green underline on active - mirrors desktop topbar active style */
   .mobile-bottom-nav__link.is-active::before {
     content: "";
     position: absolute;
@@ -1257,13 +1257,13 @@ html {
     height: 0.95rem;
   }
 
-  /* ── Topbar simplified — just wordmark + (no clock, no theme toggle) ────── */
+  /* ── Topbar simplified - just wordmark + (no clock, no theme toggle) ────── */
   .site-topbar {
     height: 2.75rem;
     padding: 0 1.1rem;
   }
 
-  /* Hide theme toggle from topbar on mobile — it moves to bottom nav */
+  /* Hide theme toggle from topbar on mobile - it moves to bottom nav */
   .site-topbar .theme-toggle {
     display: none;
   }
@@ -1275,7 +1275,7 @@ html {
 
   .topbar-clock {
     font-size: 0.58rem;
-    /* Keep clock visible — it's useful context and fits on most phones */
+    /* Keep clock visible - it's useful context and fits on most phones */
   }
 
   /* ── Body bottom clearance for bottom nav ───────────────────────────────── */
@@ -1298,7 +1298,7 @@ html {
     padding-bottom: 0.85rem;
   }
 
-  /* Counter — slightly larger, easier to read at arm's length */
+  /* Counter - slightly larger, easier to read at arm's length */
   .section-panel > h2::before {
     font-size: 0.6rem;
     letter-spacing: 0.08em;
@@ -1310,7 +1310,7 @@ html {
     padding-top: 0.5rem;
   }
 
-  /* Dateline — single line, clean, reads like a byline */
+  /* Dateline - single line, clean, reads like a byline */
   .hero-dateline {
     flex-wrap: nowrap;
     gap: 0;
@@ -1334,7 +1334,7 @@ html {
     display: none;
   }
 
-  /* Mobile nameplate — typographic anchor, full weight */
+  /* Mobile nameplate - typographic anchor, full weight */
   .mobile-nameplate {
     display: block;
     font-family: "General Sans", "Geist", Arial, Helvetica, sans-serif;
@@ -1347,16 +1347,16 @@ html {
     margin: 0 0 1.5rem;
   }
 
-  /* Last name — slightly lighter, creates a 2-line typographic mark */
+  /* Last name - slightly lighter, creates a 2-line typographic mark */
   .mobile-nameplate span {
     display: block;
     color: var(--color-primary-text-faded-1);
     font-weight: 700;
-    /* Micro indent — aligns with the natural reading axis */
+    /* Micro indent - aligns with the natural reading axis */
     padding-left: 0.08em;
   }
 
-  /* Thin rule between name and intro — gives editorial separation */
+  /* Thin rule between name and intro - gives editorial separation */
   .mobile-nameplate::after {
     content: "";
     display: block;
@@ -1367,10 +1367,10 @@ html {
     margin-top: 1.2rem;
   }
 
-  /* Intro copy — full width, comfortable reading size */
+  /* Intro copy - full width, comfortable reading size */
   .intro-copy {
     max-width: 100%;
-    /* No top margin — nameplate::after rule provides visual separation */
+    /* No top margin - nameplate::after rule provides visual separation */
     margin-top: 1.2rem;
   }
 
@@ -1382,13 +1382,13 @@ html {
 
   .intro-copy p + p {
     margin-top: 1rem;
-    /* Same size as primary — second paragraph earns equal weight on mobile */
+    /* Same size as primary - second paragraph earns equal weight on mobile */
     font-size: 0.92rem;
     line-height: 1.68;
     color: var(--color-primary-text-faded-1);
   }
 
-  /* Signals strip — scrollable, right-fade hints at overflow */
+  /* Signals strip - scrollable, right-fade hints at overflow */
   .backend-signals {
     margin-top: 1.5rem;
     flex-wrap: nowrap;
@@ -1476,11 +1476,11 @@ html {
   }
 
   .job-employer {
-    /* More padding — entries feel less squeezed */
+    /* More padding - entries feel less squeezed */
     padding: 1.4rem 0 1.6rem;
   }
 
-  /* Suppress the left margin marker — no room in 1.1rem gutter */
+  /* Suppress the left margin marker - no room in 1.1rem gutter */
   .job-employer::before {
     display: none;
   }
@@ -1523,7 +1523,7 @@ html {
     padding-bottom: 0;
   }
 
-  /* Title + dates on the same row — saves vertical space */
+  /* Title + dates on the same row - saves vertical space */
   .job-position__header-row {
     display: flex;
     align-items: baseline;
@@ -1550,7 +1550,7 @@ html {
     color: var(--color-primary-text-faded-2);
   }
 
-  /* Highlights — full reading size, not cramped */
+  /* Highlights - full reading size, not cramped */
   .job-position__highlights {
     margin: 0.65rem 0 0;
     padding-left: 1rem;
@@ -1575,7 +1575,7 @@ html {
     padding: 1.25rem 0 1.4rem;
   }
 
-  /* Suppress left-margin square — no room */
+  /* Suppress left-margin square - no room */
   .project-item::before {
     display: none;
   }
@@ -1603,7 +1603,7 @@ html {
     line-height: 1.25;
   }
 
-  /* On mobile the arrow after the link adds clutter — remove it */
+  /* On mobile the arrow after the link adds clutter - remove it */
   .project-item__title a::after {
     display: none;
   }
@@ -1615,7 +1615,7 @@ html {
     padding-top: 0.12em;
   }
 
-  /* Description — full width, no left offset */
+  /* Description - full width, no left offset */
   .project-description {
     max-width: 100%;
     margin-left: 0;
@@ -1626,7 +1626,7 @@ html {
     hyphens: auto;
   }
 
-  /* Highlights — full width, no left offset */
+  /* Highlights - full width, no left offset */
   .project-item .project-highlights {
     margin: 0.65rem 0 0;
     margin-left: 0;
@@ -1645,7 +1645,7 @@ html {
     margin-bottom: 0;
   }
 
-  /* Tags — full width, generous tap targets */
+  /* Tags - full width, generous tap targets */
   .project-tags {
     gap: 0.3rem;
     margin: 0.75rem 0 0;
@@ -1686,16 +1686,16 @@ html {
   }
 
   #skills .skill-row {
-    /* Single column — category label on top, items below */
+    /* Single column - category label on top, items below */
     grid-template-columns: 1fr;
     gap: 0.45rem;
     padding: 0.9rem 0.75rem;
     border-top: 1px solid var(--color-border);
-    /* Alternating row tint for scannability — applied via nth-child */
+    /* Alternating row tint for scannability - applied via nth-child */
     background: transparent;
   }
 
-  /* Subtle alternating row shading — easier to scan on long mobile lists */
+  /* Subtle alternating row shading - easier to scan on long mobile lists */
   #skills .skill-row:nth-child(even) {
     background: var(--color-row-even);
   }
@@ -1711,7 +1711,7 @@ html {
     line-height: 1.3;
   }
 
-  /* Pills: inline prose with slash separators — readable, not a tag cloud */
+  /* Pills: inline prose with slash separators - readable, not a tag cloud */
   #skills .skill-row__items {
     gap: 0 0.1rem;
     flex-wrap: wrap;
@@ -1739,7 +1739,7 @@ html {
     align-items: center;
   }
 
-  /* Hide the index number — domain already distinguishes entries */
+  /* Hide the index number - domain already distinguishes entries */
   #links .link-entry__num {
     display: none;
   }
@@ -1760,7 +1760,7 @@ html {
     color: var(--color-primary-text-faded-2);
   }
 
-  /* ── Contact section — full-width rows, not a cramped bar ──────────────── */
+  /* ── Contact section - full-width rows, not a cramped bar ──────────────── */
   .contact-bar {
     margin-top: 1.75rem;
     padding-top: 0;

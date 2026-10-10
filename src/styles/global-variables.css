@@ -1,5 +1,5 @@
 /*
- * Design tokens — Nirav Parekh portfolio
+ * Design tokens - Nirav Parekh portfolio
  * Palette: "Technical Press"
  * Dark:  near-black + warm off-white text + green accent used sparingly
  * Light: off-white paper + near-black text + deep green accent
@@ -16,14 +16,14 @@
   --color-primary-text-faded-1: #888884;
   --color-primary-text-faded-2: #555552;
 
-  /* Surfaces — very dark, near-black with a tiny green tint */
+  /* Surfaces - very dark, near-black with a tiny green tint */
   --color-primary-background: #0d0e0c;
   --color-primary-background-faded-1: #141512;
   --color-primary-background-faded-2: #191b17;
   --color-primary-background-faded-3: #212320;
   --color-primary-background-faded-4: #2e312b;
 
-  /* Green accent — used ONLY on focus, hover, marks. Not on borders/surfaces. */
+  /* Green accent - used ONLY on focus, hover, marks. Not on borders/surfaces. */
   --color-accent-1: #2fd44a;
   --color-accent-1-minimal: rgba(47, 212, 74, 0.07);
   --color-accent-dim: rgba(47, 212, 74, 0.45);
@@ -31,7 +31,7 @@
   /* Page */
   --color-page-background: #0b0c0a;
 
-  /* Neutral borders — no green tint */
+  /* Neutral borders - no green tint */
   --color-border: rgba(255, 255, 255, 0.08);
   --color-border-strong: rgba(255, 255, 255, 0.14);
   --color-border-accent: rgba(47, 212, 74, 0.28); /* only for accent contexts */

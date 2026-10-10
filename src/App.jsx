@@ -26,7 +26,7 @@ const displayFirstName = "Nirav";
 const displayLastName = "Parekh";
 
 const introLines = [
-  "Backend-focused Full Stack Engineer specialising in enterprise applications, secure APIs, and systems built for the long run. I care about what happens when software meets reality — how the system holds under real traffic, how the codebase survives changing requirements, how the next engineer reads what I built.",
+  "Backend-focused Full Stack Engineer specialising in enterprise applications, secure APIs, and systems built for the long run. I care about what happens when software meets reality - how the system holds under real traffic, how the codebase survives changing requirements, how the next engineer reads what I built.",
   "System design is where I think best. Hard problems are what keep me engaged. End-to-end ownership is just how I work.",
 ];
 
@@ -91,7 +91,7 @@ const contactInfo = {
   resumeHref: "/Nirav_Parekh_Resume.pdf",
 };
 
-/* Indexed link list — no icons needed, just label + domain */
+/* Indexed link list - no icons needed, just label + domain */
 const profileLinks = [
   {
     id: "linkedin",
@@ -333,7 +333,7 @@ function App() {
           <a
             className="topbar-wordmark"
             href="#top"
-            aria-label="Nirav Parekh — back to top"
+            aria-label="Nirav Parekh - back to top"
           >
             NRV
           </a>
@@ -406,9 +406,9 @@ function App() {
       <main id="main-content" className="portfolio-main">
         {/* ── Hero ────────────────────────────────────────────────────────── */}
         <section id="top" className="header section-panel hero-panel">
-          <h1 className="sr-only">{displayName} — Backend Engineer</h1>
+          <h1 className="sr-only">{displayName} - Backend Engineer</h1>
 
-          {/* Dateline — the editorial unexpected element */}
+          {/* Dateline - the editorial unexpected element */}
           {/* Reads like a newspaper dateline: location · status · date */}
           <ul className="hero-dateline" aria-label="Location and availability">
             <li>India</li>
@@ -422,7 +422,7 @@ function App() {
             <span ref={typedNameRef} />
           </p>
 
-          {/* Mobile nameplate — typographic, split first/last */}
+          {/* Mobile nameplate - typographic, split first/last */}
           <p className="mobile-nameplate" aria-hidden="true">
             {displayFirstName}
             <span>{displayLastName}</span>
@@ -635,7 +635,7 @@ function App() {
         {/* ── Links ───────────────────────────────────────────────────────── */}
         <section id="links" className="section-panel links-panel">
           <h2 data-label="Links">Links</h2>
-          {/* Indexed list — no icon grid */}
+          {/* Indexed list - no icon grid */}
           <nav
             className="links-list"
             aria-label="External profiles and contact"
@@ -659,7 +659,7 @@ function App() {
             ))}
           </nav>
 
-          {/* Contact bar — replaces floating actions */}
+          {/* Contact bar - replaces floating actions */}
           <div className="contact-bar" aria-label="Direct contact">
             <span className="contact-bar__label">Contact</span>
             <a href={contactInfo.phoneHref}>{contactInfo.phoneDisplay}</a>
